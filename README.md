@@ -1,24 +1,22 @@
 # 📧 MailMind AI
 
-**MailMind AI** is an AI-powered email assistant that helps users **generate, reply, and manage emails** with intelligent suggestions.
-It integrates seamlessly with **Gmail via a Chrome Extension** and provides a **backend service (Java Spring Boot)** with a **frontend (React/Next.js)** for customization and management.
+**MailMind AI** is an AI-powered email assistant that helps users **generate, reply, and manage emails** with intelligent suggestions.  
+It integrates seamlessly with **Gmail via a Chrome Extension** and provides a **backend service (Java Spring Boot)** for AI processing and management.  
 
 ---
 
 ## 🚀 Features
 
-* ✨ **AI-Powered Email Replies** – Generates context-aware, professional, or casual replies instantly.
-* 🔍 **Smart Context Extraction** – Reads and understands the selected email before generating responses.
-* 🌐 **Chrome Extension** – Direct integration with Gmail.
-* ⚡ **Backend (Spring Boot)** – Handles AI processing, authentication, and API calls.
-* 🎨 **Frontend (React/Next.js)** – Dashboard for settings, history, and customization.
-* 🔒 **Secure Storage** – Keeps user data and preferences safe.
+* ✨ **AI-Powered Email Replies** – Generates context-aware, professional, or casual replies instantly.  
+* 🔍 **Smart Context Extraction** – Reads and understands the selected email before generating responses.  
+* 🌐 **Chrome Extension** – Direct integration with Gmail.  
+* ⚡ **Backend (Spring Boot)** – Handles AI processing, authentication, and API calls.  
+* 🔒 **Secure Storage** – Keeps user data and preferences safe.  
 
 ---
 
 ## 🏗️ Tech Stack
 
-**Frontend:** React / Next.js, TailwindCSS  
 **Backend:** Java (Spring Boot), REST APIs  
 **Extension:** Chrome Extension (Manifest v3, JavaScript)  
 **AI Engine:** OpenAI API (GPT-based)  
@@ -42,7 +40,7 @@ MailMind-AI/
 ### 🔹 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/MailMind-AI.git
+git clone https://github.com/Vinayak24Patil/MailMind-AI.git
 cd MailMind-AI
 ```
 
@@ -55,62 +53,51 @@ cd MailMind-AI-Spring
 
 Backend will start at: `http://localhost:8080`
 
-### 🔹 3. Setup Frontend (React/Next.js)
+### 🔹 3. Load Chrome Extension
 
-```bash
-cd MailMind-AI-Front
-npm install
-npm run dev
-```
-
-Frontend will run at: `http://localhost:3000`
-
-### 🔹 4. Load Chrome Extension
-
-1. Go to **chrome://extensions/**
-2. Enable **Developer Mode**
-3. Click **Load unpacked** → Select `MailMind-AI-Ext/`
+1. Go to **chrome://extensions/**  
+2. Enable **Developer Mode**  
+3. Click **Load unpacked** → Select `MailMind-AI-Ext/`  
 
 ---
 
 ## 🎯 Usage
 
-1. Open Gmail in your browser.
-2. Select an email → Click on **MailMind AI Extension** icon.
-3. Get AI-generated replies instantly.
-4. Use the frontend dashboard for advanced settings.
+1. Open Gmail in your browser.  
+2. Select an email → Click on **MailMind AI Extension** icon.  
+3. Get AI-generated replies instantly.  
 
 ---
 
 ## 📸 Screenshots
 
-👉 *[Add your extension + dashboard screenshots here]*
+👉 *[Add your extension screenshots here]*  
 
 ---
 
 ## 📌 Roadmap
 
-* [ ] Add multiple email client support (Outlook, Yahoo)
-* [ ] Improve personalization (tone, language preferences)
-* [ ] Offline draft saving
-* [ ] Voice-to-email replies
+* [ ] Add multiple email client support (Outlook, Yahoo)  
+* [ ] Improve personalization (tone, language preferences)  
+* [ ] Offline draft saving  
+* [ ] Voice-to-email replies  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome!  
 
-1. Fork the repo
-2. Create a new branch (`feature-xyz`)
-3. Commit your changes
-4. Open a Pull Request 🚀
+1. Fork the repo  
+2. Create a new branch (`feature-xyz`)  
+3. Commit your changes  
+4. Open a Pull Request 🚀  
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**.  
 
 ---
 
