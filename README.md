@@ -1,20 +1,30 @@
-Read Me First
-The following was discovered as part of building this project:
+readme_content = """# 📧 MailMind AI
 
-The original package name 'com.vinayak.MailMind AI' is invalid and this project uses 'com.vinayak.MailMind.AI' instead.
-Getting Started
-Reference Documentation
-For further reference, please consider the following sections:
+**MailMind AI** is an AI-powered email assistant that helps users **generate, reply, and manage emails** with intelligent suggestions.
+It integrates seamlessly with **Gmail via a Chrome Extension** and provides a **backend service (Java Spring Boot)** with a **frontend (React/Next.js)** for customization and management.
 
-Official Apache Maven documentation
-Spring Boot Maven Plugin Reference Guide
-Create an OCI image
-Spring Web
-Guides
-The following guides illustrate how to use some features concretely:
+---
 
-Building a RESTful Web Service
-Serving Web Content with Spring MVC
-Building REST services with Spring
-Maven Parent overrides
-Due to Maven's design, elements are inherited from the parent POM to the project POM. While most of the inheritance is fine, it also inherits unwanted elements like <license> and <developers> from the parent. To prevent this, the project POM contains empty overrides for these elements. If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+## 🚀 Features
+
+* ✨ **AI-Powered Email Replies** – Generates context-aware, professional, or casual replies instantly.
+* 🔍 **Smart Context Extraction** – Reads and understands the selected email before generating responses.
+* 🌐 **Chrome Extension** – Direct integration with Gmail.
+* ⚡ **Backend (Spring Boot)** – Handles AI processing, authentication, and API calls.
+* 🎨 **Frontend (React/Next.js)** – Dashboard for settings, history, and customization.
+* 🔒 **Secure Storage** – Keeps user data and preferences safe.
+
+---
+
+## 🏗️ Tech Stack
+
+**Frontend:** React / Next.js, TailwindCSS  
+**Backend:** Java (Spring Boot), REST APIs  
+**Extension:** Chrome Extension (Manifest v3, JavaScript)  
+**AI Engine:** OpenAI API (GPT-based)  
+**Database:** MySQL / PostgreSQL (configurable)  
+
+---
+
+## 📂 Project Structure
+
