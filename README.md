@@ -1,4 +1,4 @@
-readme_content = """# 📧 MailMind AI
+# 📧 MailMind AI
 
 **MailMind AI** is an AI-powered email assistant that helps users **generate, reply, and manage emails** with intelligent suggestions.
 It integrates seamlessly with **Gmail via a Chrome Extension** and provides a **backend service (Java Spring Boot)** with a **frontend (React/Next.js)** for customization and management.
