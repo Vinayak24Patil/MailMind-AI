@@ -31,7 +31,6 @@ It integrates seamlessly with **Gmail via a Chrome Extension** and provides a **
 ```
 MailMind-AI/
 │── MailMind-AI-Ext/        # Chrome Extension  
-│── MailMind-AI-Front/      # React/Next.js Frontend  
 │── MailMind-AI-Spring/     # Spring Boot Backend  
 │── README.md               # Project Documentation  
 ```
